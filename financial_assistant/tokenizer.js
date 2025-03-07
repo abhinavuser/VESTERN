@@ -1,49 +1,50 @@
 const { Client } = require('pg');
 const crypto = require('crypto');
 
+// Create a PostgreSQL client
 const client = new Client({
-  user: 'abhinavuser',
   host: 'localhost',
-  database: 'finance_db',
-  password: '2101',
-  port: 5432,
+  user: 'abhinavuser', // Replace with your PostgreSQL username
+  password: '2101', // Replace with your PostgreSQL password
+  database: 'finance_db'
 });
 
-client.connect();
+// Function to generate a 256-bit token
+function generate256BitToken() {
+  return crypto.randomBytes(32).toString('hex'); // 32 bytes * 8 = 256 bits
+}
 
-async function watchTransactions() {
+// Function to update the transaction_number of the last entry in the transactions table
+async function updateLastTransactionNumber() {
   try {
-    await client.query('LISTEN new_transactions');
+    await client.connect();
 
-    client.on('notification', async (msg) => {
-      if (msg.channel === 'new_transaction') {
-        const payload = JSON.parse(msg.payload);
-        const id = payload.id;
+    // Query to get the last entry in the transactions table
+    const selectQuery = 'SELECT transaction_id FROM transactions ORDER BY transaction_id DESC LIMIT 1';
+    const selectResult = await client.query(selectQuery);
 
-        const randomValue = crypto.randomBytes(32).toString('hex');
+    if (selectResult.rows.length === 0) {
+      console.log('No entries found in the transactions table.');
+      return;
+    }
 
-        await client.query('UPDATE transactions SET transaction_id = $1 WHERE id = $2', [randomValue, id]);
-      }
-    });
-  } catch (err) {
-    console.error('Error watching transactions:', err);
+    const lastEntryId = selectResult.rows[0].transaction_id;
+    const newTransactionNumber = generate256BitToken();
+
+    // Wait for 10 seconds before updating
+    await new Promise(resolve => setTimeout(resolve, 2000));
+
+    // Query to update the transaction_number field of the last entry
+    const updateQuery = 'UPDATE transactions SET transaction_number = $1 WHERE transaction_id = $2';
+    await client.query(updateQuery, [newTransactionNumber, lastEntryId]);
+
+    console.log(Successfully updated transaction_number of entry with transaction_id ${lastEntryId} to ${newTransactionNumber});
+  } catch (error) {
+    console.error('Error updating the transaction_number:', error);
+  } finally {
+    await client.end();
   }
 }
 
-client.query(`
-  CREATE OR REPLACE FUNCTION notify_new_transaction() RETURNS TRIGGER AS $$
-  BEGIN
-    PERFORM pg_notify('new_transaction', json_build_object('id', NEW.id)::text);
-    RETURN NEW;
-  END;
-  $$ LANGUAGE plpgsql;
-  
-  CREATE TRIGGER new_transaction_trigger
-  AFTER INSERT ON transactions
-  FOR EACH ROW
-  EXECUTE FUNCTION notify_new_transaction();
-`).then(() => {
-  watchTransactions();
-}).catch(err => {
-  console.error('Error setting up trigger:', err);
-});
+// Update the last transaction number once
+updateLastTransactionNumber();

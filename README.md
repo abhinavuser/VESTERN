@@ -63,9 +63,9 @@ The platform also incorporates various technologies for real-time market updates
    ```
 
 #### Frontend Setup (Next.js):
-1. Navigate to the `frontend/` directory:
+1. Navigate to the `website/` directory:
    ```bash
-   cd frontend
+   cd website
    ```
 2. Install dependencies:
    ```bash

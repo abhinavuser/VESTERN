@@ -1,0 +1,45 @@
+com.example.vestern.app-jetified-core-1.0.0-0 C:\Users\chipn\.gradle\caches\transforms-3\04f174d42540262f12401531f7792896\transformed\jetified-core-1.0.0\res
+com.example.vestern.app-jetified-fragment-ktx-1.7.1-1 C:\Users\chipn\.gradle\caches\transforms-3\115f1e073f96374ce14fb3999d9bf877\transformed\jetified-fragment-ktx-1.7.1\res
+com.example.vestern.app-coordinatorlayout-1.0.0-2 C:\Users\chipn\.gradle\caches\transforms-3\119ee446c83020781806389240c140ce\transformed\coordinatorlayout-1.0.0\res
+com.example.vestern.app-lifecycle-livedata-core-2.7.0-3 C:\Users\chipn\.gradle\caches\transforms-3\39def2b1a146085d33f72a1196d4a5a0\transformed\lifecycle-livedata-core-2.7.0\res
+com.example.vestern.app-jetified-lifecycle-livedata-core-ktx-2.7.0-4 C:\Users\chipn\.gradle\caches\transforms-3\4139102176ab656b81ebcf0ca897b269\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
+com.example.vestern.app-jetified-tracing-1.2.0-5 C:\Users\chipn\.gradle\caches\transforms-3\46ce9c3a006f9946861999a4fddb701b\transformed\jetified-tracing-1.2.0\res
+com.example.vestern.app-lifecycle-runtime-2.7.0-6 C:\Users\chipn\.gradle\caches\transforms-3\4bb08c872f942803064d805f4386a01c\transformed\lifecycle-runtime-2.7.0\res
+com.example.vestern.app-recyclerview-1.0.0-7 C:\Users\chipn\.gradle\caches\transforms-3\58935f1e2eea11cb5bab0250ad812f4d\transformed\recyclerview-1.0.0\res
+com.example.vestern.app-core-runtime-2.2.0-8 C:\Users\chipn\.gradle\caches\transforms-3\5e53ce50746b24267068f9e606dad170\transformed\core-runtime-2.2.0\res
+com.example.vestern.app-jetified-datastore-core-release-9 C:\Users\chipn\.gradle\caches\transforms-3\6c7af0d68b4e8e1b11eb785be4432d0d\transformed\jetified-datastore-core-release\res
+com.example.vestern.app-jetified-core-ktx-1.13.1-10 C:\Users\chipn\.gradle\caches\transforms-3\702e74520cc45636335ed84d3f9cc474\transformed\jetified-core-ktx-1.13.1\res
+com.example.vestern.app-transition-1.4.1-11 C:\Users\chipn\.gradle\caches\transforms-3\764abcde946e3859f7edd9d49d495636\transformed\transition-1.4.1\res
+com.example.vestern.app-jetified-startup-runtime-1.1.1-12 C:\Users\chipn\.gradle\caches\transforms-3\845f2425042cc87caaed607428b87b9f\transformed\jetified-startup-runtime-1.1.1\res
+com.example.vestern.app-lifecycle-livedata-2.7.0-13 C:\Users\chipn\.gradle\caches\transforms-3\855e6de71e633b0e5cf706a3d049e602\transformed\lifecycle-livedata-2.7.0\res
+com.example.vestern.app-fragment-1.7.1-14 C:\Users\chipn\.gradle\caches\transforms-3\8f965ad714ff25a39aba19513cebf0f2\transformed\fragment-1.7.1\res
+com.example.vestern.app-jetified-activity-ktx-1.8.1-15 C:\Users\chipn\.gradle\caches\transforms-3\908b2a69f590dc373e25cd7b5fb22240\transformed\jetified-activity-ktx-1.8.1\res
+com.example.vestern.app-jetified-savedstate-ktx-1.2.1-16 C:\Users\chipn\.gradle\caches\transforms-3\94c861a9d93dda30c88aaa82d5d9abaf\transformed\jetified-savedstate-ktx-1.2.1\res
+com.example.vestern.app-jetified-profileinstaller-1.3.1-17 C:\Users\chipn\.gradle\caches\transforms-3\953485efefbd4271a4988da7bc3a7e60\transformed\jetified-profileinstaller-1.3.1\res
+com.example.vestern.app-jetified-datastore-release-18 C:\Users\chipn\.gradle\caches\transforms-3\970aa128fe53e9ffd26c34cc55b53af1\transformed\jetified-datastore-release\res
+com.example.vestern.app-jetified-lifecycle-runtime-ktx-2.7.0-19 C:\Users\chipn\.gradle\caches\transforms-3\a31728e60887f1e0f6cd2385748ab722\transformed\jetified-lifecycle-runtime-ktx-2.7.0\res
+com.example.vestern.app-slidingpanelayout-1.2.0-20 C:\Users\chipn\.gradle\caches\transforms-3\a4abe152ff6f52a5b10de71a5490154c\transformed\slidingpanelayout-1.2.0\res
+com.example.vestern.app-core-1.13.1-21 C:\Users\chipn\.gradle\caches\transforms-3\aa604059b70daead2053496361cbb968\transformed\core-1.13.1\res
+com.example.vestern.app-appcompat-1.1.0-22 C:\Users\chipn\.gradle\caches\transforms-3\ae375cdf028fdb821a68cd0c378e483e\transformed\appcompat-1.1.0\res
+com.example.vestern.app-preference-1.2.1-23 C:\Users\chipn\.gradle\caches\transforms-3\b03396468121c49d8102a30b777591a8\transformed\preference-1.2.1\res
+com.example.vestern.app-jetified-annotation-experimental-1.4.0-24 C:\Users\chipn\.gradle\caches\transforms-3\b3cbee5e14c9a9e9e92dbe4b44b4cb77\transformed\jetified-annotation-experimental-1.4.0\res
+com.example.vestern.app-jetified-lifecycle-process-2.7.0-25 C:\Users\chipn\.gradle\caches\transforms-3\c346371a1dde6db8a3837bc09b8e548c\transformed\jetified-lifecycle-process-2.7.0\res
+com.example.vestern.app-jetified-window-java-1.2.0-26 C:\Users\chipn\.gradle\caches\transforms-3\c6a94fcfe49debc0747c637c0ee14c85\transformed\jetified-window-java-1.2.0\res
+com.example.vestern.app-jetified-datastore-preferences-release-27 C:\Users\chipn\.gradle\caches\transforms-3\d04f90e78ca814cc985ae4b58369a004\transformed\jetified-datastore-preferences-release\res
+com.example.vestern.app-lifecycle-viewmodel-2.7.0-28 C:\Users\chipn\.gradle\caches\transforms-3\d424d591311c0d453bec42cfd63c7d5d\transformed\lifecycle-viewmodel-2.7.0\res
+com.example.vestern.app-jetified-lifecycle-viewmodel-ktx-2.7.0-29 C:\Users\chipn\.gradle\caches\transforms-3\df17559d4319983f9314680423049d30\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\res
+com.example.vestern.app-jetified-savedstate-1.2.1-30 C:\Users\chipn\.gradle\caches\transforms-3\df71b9637da6b65927f9b4237534f84b\transformed\jetified-savedstate-1.2.1\res
+com.example.vestern.app-jetified-activity-1.8.1-31 C:\Users\chipn\.gradle\caches\transforms-3\f3de2869ff01394ccc190c1ce4046497\transformed\jetified-activity-1.8.1\res
+com.example.vestern.app-jetified-window-1.2.0-32 C:\Users\chipn\.gradle\caches\transforms-3\f5716c750ac1d82c8f890b5258a71145\transformed\jetified-window-1.2.0\res
+com.example.vestern.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-33 C:\Users\chipn\.gradle\caches\transforms-3\f7cd732d2f77719b37e146ac9627cdeb\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+com.example.vestern.app-jetified-appcompat-resources-1.1.0-34 C:\Users\chipn\.gradle\caches\transforms-3\ffd3515daa00bb94ba580b2d13ddc347\transformed\jetified-appcompat-resources-1.1.0\res
+com.example.vestern.app-packaged_res-35 C:\Users\chipn\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.15\android\build\intermediates\packaged_res\debug
+com.example.vestern.app-packaged_res-36 C:\Users\chipn\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.7\android\build\intermediates\packaged_res\debug
+com.example.vestern.app-packaged_res-37 C:\Users\chipn\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite_android-2.4.0\android\build\intermediates\packaged_res\debug
+com.example.vestern.app-pngs-38 E:\VS Code\Flutter\fintech\vestern\android\app\build\generated\res\pngs\debug
+com.example.vestern.app-resValues-39 E:\VS Code\Flutter\fintech\vestern\android\app\build\generated\res\resValues\debug
+com.example.vestern.app-packageDebugResources-40 E:\VS Code\Flutter\fintech\vestern\android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.vestern.app-packageDebugResources-41 E:\VS Code\Flutter\fintech\vestern\android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.vestern.app-merged_res-42 E:\VS Code\Flutter\fintech\vestern\android\app\build\intermediates\merged_res\debug
+com.example.vestern.app-debug-43 E:\VS Code\Flutter\fintech\vestern\android\app\src\debug\res
+com.example.vestern.app-main-44 E:\VS Code\Flutter\fintech\vestern\android\app\src\main\res

@@ -1,0 +1,39 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "NODE_ENV=production next build",
+    "clean": "git clean -xdf .next .turbo node_modules",
+    "dev": "TZ=UTC next dev --turbopack -p 3000",
+    "lint": "next lint",
+    "format": "biome format --write .",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@openpanel/nextjs": "^1.0.7",
+    "@openstatus/react": "^0.0.3",
+    "@team-plain/typescript-sdk": "5.5.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/pg": "^8.11.11",
+    "bcryptjs": "^3.0.2",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^12.4.10",
+    "lucide-react": "^0.477.0",
+    "next": "15.1.0",
+    "next-mdx-remote": "^5.0.0",
+    "next-themes": "^0.4.4",
+    "pg": "^8.13.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "recharts": "^2.15.1",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/react": "19.0.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-alpha.3"
+  }
+}

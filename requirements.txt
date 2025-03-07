@@ -1,0 +1,8 @@
+psycopg2-binary==2.9.9
+python-dotenv==1.0.0
+langchain==0.3.20
+bcrypt==4.1.2
+pandas==2.0.3
+yfinance==0.2.36
+pandas_datareader==0.10.0
+plotly==5.18.0

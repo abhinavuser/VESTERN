@@ -122,8 +122,7 @@ We welcome contributions to the Vestern project! To contribute:
 4. Push to your branch (`git push origin feature-name`).
 5. Create a pull request.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 ---
 
